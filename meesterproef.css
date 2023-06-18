@@ -1,0 +1,2051 @@
+/*************/
+/* CSS RESET */
+/*************/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+/********************/
+/* ALGEMENE STYLING */
+/********************/
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+.two {
+    color: #000;
+    background-color: white;
+    z-index: 49;
+    max-height: 850px;
+}
+
+.alle {
+    width: 35%;
+    position: absolute;
+    top: 83em;
+    left: 29em;
+    z-index: 100;
+}
+
+.three {
+    color: #000;
+    z-index: 100;
+    background-color: #fff;
+    max-height: 850px;
+}
+
+.three img:nth-of-type(1) {
+    width: 42.5%;
+    position: absolute;
+    top: 106.3em;
+    left: 34%;
+    z-index: 20;
+}
+
+.four {
+    color: #000;
+    background-color: white;
+    z-index: 80;
+    max-height: 850px;
+}
+
+.title10 {
+    position: absolute;
+    left: 8%;
+    top: 159em;
+    width: 38%;
+    z-index: 250;
+}
+
+.title11 {
+    position: absolute;
+    left: 7.5%;
+    top: 159.4em;
+    width: 38%;
+    z-index: 150;
+    opacity: 0.5;
+}
+
+.one {
+    color: #000;
+    z-index: 80;
+    max-height: 850px;
+    background-color: transparent;
+}
+
+.title {
+    position: absolute;
+    left: 43%;
+    top: 4%;
+    width: 50%;
+    z-index: 250;
+}
+
+#title2 {
+    position: absolute;
+    left: 43.3%;
+    top: 4.2%;
+    width: 50%;
+    z-index: 150;
+}
+
+.title3 {
+    position: absolute;
+    left: 8%;
+    top: 57em;
+    width: 40%;
+    z-index: 250;
+}
+
+.title4 {
+    position: absolute;
+    left: 7.5%;
+    top: 57.4em;
+    width: 40%;
+    z-index: 150;
+    opacity: 0.5;
+}
+
+.one p {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    width: 40%;
+    color: #000;
+    position: absolute;
+    left: 51%;
+    top: 7.5%;
+    z-index: 150;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.one img:nth-of-type(1) {
+    width: 102%;
+    position: absolute;
+    top: 3em;
+    left: -0.9em;
+    z-index: 20;
+}
+
+.one img:nth-of-type(2) {
+    width: 40%;
+    position: absolute;
+    top: 20em;
+    left: 0em;
+    z-index: 200;
+}
+
+.baby {
+    content: "";
+    width: 15%;
+    height: 8%;
+    z-index: 40;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 13%;
+    animation-name: baby;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+.sad {
+    width: 12%;
+    height: 10%;
+    z-index: 30;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 8%;
+    animation-name: sad;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes sad {
+    0% {
+        position: absolute;
+        left: -10%;
+        top: 7%;
+        opacity: 1;
+    }
+
+    80% {
+        position: absolute;
+        left: 40%;
+        top: 7%;
+        opacity: 0.8;
+    }
+
+    100% {
+        position: absolute;
+        left: 40%;
+        top: 7%;
+        opacity: 0;
+    }
+}
+
+
+.baby2 {
+    content: "";
+    width: 15%;
+    height: 8%;
+    z-index: 40;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 15%;
+    animation-name: baby2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.baby3 {
+    content: "";
+    width: 15%;
+    height: 8%;
+    z-index: 40;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 13%;
+    animation-name: baby3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.baby4 {
+    content: "";
+    width: 15%;
+    height: 8%;
+    z-index: 40;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 13%;
+    animation-name: baby4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.baby5 {
+    content: "";
+    width: 15%;
+    height: 8%;
+    z-index: 40;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    position: absolute;
+    left: -10%;
+    top: 13%;
+    animation-name: baby4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes baby {
+    0% {
+        position: absolute;
+        left: -10%;
+        top: 10.5%;
+    }
+
+    100% {
+        position: absolute;
+        left: 100%;
+        top: 10.5%;
+    }
+}
+
+@keyframes baby2 {
+    0% {
+        position: absolute;
+        left: -10%;
+        top: 10.5%;
+    }
+
+    100% {
+        position: absolute;
+        left: 100%;
+        top: 10.5%;
+    }
+}
+
+@keyframes baby3 {
+    0% {
+        position: absolute;
+        left: -10%;
+        top: 10.5%;
+    }
+
+    100% {
+        position: absolute;
+        left: 100%;
+        top: 10.5%;
+    }
+}
+
+@keyframes baby4 {
+    0% {
+        position: absolute;
+        left: -10%;
+        top: 10.5%;
+    }
+
+    100% {
+        position: absolute;
+        left: 100%;
+        top: 10.5%;
+    }
+}
+
+.rahmen {
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    left: 92.7%;
+    top: 3%;
+    height: 37em;
+    width: 2.5em;
+    z-index: 110;
+
+}
+
+.schatten {
+    box-sizing: border-box;
+    background-color: #c7c7c7;
+    position: absolute;
+    left: 92.3%;
+    top: 5%;
+    height: 31em;
+    width: 0.47em;
+    z-index: 100;
+}
+
+.rahmen2 {
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    left: 5.2%;
+    top: 3%;
+    height: 37em;
+    width: 2.1em;
+    z-index: 110;
+
+}
+
+.schatten2 {
+    box-sizing: border-box;
+    background-color: #c7c7c7;
+    position: absolute;
+    left: 7.5%;
+    top: 5%;
+    height: 31em;
+    width: 0.47em;
+    z-index: 100;
+}
+
+.rahmen3 {
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    left: 5.1%;
+    top: 17.1%;
+    height: 2.65em;
+    width: 81.35em;
+    z-index: 110;
+
+}
+
+.schatten3 {
+    box-sizing: border-box;
+    background-color: #c7c7c7;
+    position: absolute;
+    left: 7.45%;
+    top: 16.9%;
+    height: 0.6em;
+    width: 80em;
+    z-index: 100;
+}
+
+
+
+.wall {
+    position: absolute;
+    left: 95.4%;
+    top: 10%;
+    width: 5.1em;
+    z-index: 100;
+}
+
+.wall2 {
+    position: absolute;
+    left: 0%;
+    top: 12%;
+    width: 4.7em;
+    z-index: 100;
+}
+
+.wall3 {
+    position: absolute;
+    left: 0%;
+    top: 4%;
+    width: 4.7em;
+    z-index: 100;
+}
+
+.grid {
+    box-sizing: border-box;
+    width: 76em;
+    height: 33.5em;
+    background: url(pictures/grid.png);
+    background-position: center;
+    background-size: contain;
+    z-index: 120;
+    position: absolute;
+    left: 8%;
+    opacity: 0.2;
+    top: 3.8%;
+}
+
+.pfeil {
+    position: absolute;
+    left:50%;
+    top:18.5%;
+    width: 5%;
+    z-index: 999;
+}
+
+.pfeil2 {
+    position: absolute;
+    left:50.6%;
+    top:92%;
+    width: 5%;
+    z-index: 999;
+    overflow: visible;
+}
+
+.pfeil3 {
+    position: absolute;
+    left:50.6%;
+    top:58.5%;
+    width: 5%;
+    z-index: 999;
+    overflow: visible;
+}
+
+.container {
+    height: 100%;
+    font-size: 100px;
+}
+
+.row {
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.scroll-control {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.scroll-control span {
+    cursor: pointer;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.7;
+    margin: 0.5em;
+    z-index: 1000;
+}
+
+.scroll-control span:hover {
+    opacity: 1;
+}
+
+@media all and (max-width: 1023px) {
+    .scroll-control span {
+        display: none;
+    }
+}
+
+.earth {
+    position: absolute;
+    top: 2.6em;
+    left: 0;
+    bottom: 0;
+    right: -0.4em;
+    margin: auto;
+    width: 340px;
+    height: 340px;
+    background-image: url(pictures/earth.png);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 30s linear alternate infinite;
+    z-index: 50;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 100%;
+    }
+}
+
+.three img:nth-of-type(2) {
+    width: 31.3%;
+    height: 13%;
+    position: absolute;
+    top: 117.3em;
+    left: 39.4em;
+    z-index: 100;
+}
+
+.three img:nth-of-type(3) {
+    width: 32.8%;
+    position: absolute;
+    top: 116.2em;
+    left: 30.8em;
+    z-index: 100;
+}
+
+.three p {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17%;
+    width: 25%;
+    color: #000;
+    position: absolute;
+    left: 9%;
+    top: 111em;
+    z-index: 150;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.wetboek {
+    background-image: url(pictures/gesetz.jpg);
+    background-size: 50%;
+    overflow: hidden;
+    box-shadow: -0.1em -0.1em 1px 1px #000 inset, 0.1em 0.1em 1px 1px #000 inset;
+    border-width: 0.1em;
+    width: 5.7em;
+    height: 3.5em;
+    perspective: 600px;
+    position: absolute;
+    top: 23%;
+    z-index: 300;
+    left: 7.4em;
+    transform: rotate(7deg);
+}
+
+.wetboek p1 {
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 80%;
+}
+
+.wetboek::before {
+    content: " ";
+    background-image: url(pictures/wetboek.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    z-index: 5;
+    height: 100%;
+    right: 50%;
+    transform-origin: center right;
+    transform: rotateY(180deg);
+    transition: 0.7s ease all;
+}
+
+.wetboek:hover::before {
+    transform: rotateY(0deg);
+    cursor:pointer;
+}
+
+.wetboek .page1 {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wetboek .page2 {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 18em;
+    height: 21em;
+    top: 23.7%;
+    left: 71%;
+    transform: rotate(7deg);
+    background-color: black;
+    z-index: 100;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+#buttonintro {
+    position: fixed;
+    left: 50%;
+    top: 2.5%;
+
+    font-size: 0.7em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0.5em;
+    color:grey;
+    box-shadow: 0.2em 0.2em 0.2em black;
+    width: 47%;
+    height: 93.5%;
+    appearance: none;
+    background-color: rgb(226, 215, 201);
+    opacity: 0.9;
+    border: none;
+}
+
+#buttonintro:hover {
+    opacity: 1;
+    color:#000;
+    cursor: pointer;
+}
+
+dialog {
+    padding: 1em;
+    height: 120%;
+    width: 120%;
+    background-color: white;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100;
+}
+
+dialog::backdrop {
+    background: transparent;
+}
+
+dialog[open] {
+    display: block;
+    height: 120%;
+    width: 120%;
+    border: none;
+    position: absolute;
+    padding: 1em;
+    left: 1%;
+    top: 154%;
+    opacity: 1;
+    border: none;
+    pointer-events: all;
+}
+
+
+dialog h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+dialog p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+}
+
+.sluitbutton {
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    float: right;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    appearance: none;
+    background: none;
+    border: none;
+    opacity: 0.7;
+}
+
+.sluitbutton:hover {
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.tekst {
+    display: block;
+    padding: 1em;
+    height: 17%;
+    width: 39%;
+    background-color: transparent;
+    z-index: 80;
+    position: absolute;
+    left: 8.7%;
+    top: 24.3%;
+    opacity: 1;
+}
+
+.tekst p3 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    color: #000;
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    z-index: 150;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.arrow {
+    position: absolute;
+    left: 50em;
+    top: 70em;
+    height: 10em;
+    width: 4em;
+    opacity: 1;
+    z-index: 400;
+    transform: rotate(-100deg);
+}
+
+.title2 {
+    color: black;
+    text-shadow: 0.1em 0.1em 0.5em black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30%;
+    position: absolute;
+    left: 17em;
+    top: 29em;
+    z-index: 100;
+}
+
+.title5 {
+    position: absolute;
+    left: 2.5em;
+    top: 0.85em;
+    width: 42%;
+    z-index: 250;
+}
+
+.title6 {
+    position: absolute;
+    left: 2.25em;
+    top: 1.05em;
+    width: 42%;
+    z-index: 150;
+    opacity: 0.5;
+}
+
+.fraualleine {
+    position: absolute;
+    left: 38em;
+    top: 15em;
+    height: 42%;
+    z-index: 250;
+}
+
+.couplealleine {
+    position: absolute;
+    left: 1em;
+    top: 15em;
+    height: 42%;
+    z-index: 250;
+}
+
+.brick {
+    position: absolute;
+    left: 23em;
+    top: 17em;
+    height: 38%;
+    width: 6%;
+    z-index: 250;
+}
+
+.kind2 {
+    position: absolute;
+    left: 21.5em;
+    top: 14em;
+    width: 11%;
+    z-index: 260;
+    animation-name: colafles1950;
+    transform: rotate(-40deg);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colafles1950 {
+    0% {
+        transform: rotate(-40deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+        position: absolute;
+        left: 22em;
+        top: 14em
+    }
+}
+
+.dialogtext {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55%;
+    width: 40%;
+    color: #000;
+    position: absolute;
+    left: 6.5%;
+    top: 27%;
+    z-index: 150;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.grey {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 98%;
+    height: 100%;
+    position: absolute;
+    left:1%;
+    top:50%;
+    background-color: grey;
+    opacity: 0.4;
+    animation-name: grey;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    filter: blur(10px);
+    overflow: visible;
+}
+
+@keyframes grey {
+    0% {
+        position: absolute;
+        left:1%;
+        top:100%;
+    }
+
+    100% {
+        position: absolute;
+        left:1%;
+        top:50%;
+    }
+}
+
+.title7 {
+    position: absolute;
+    left: 8%;
+    top: 109.5em;
+    width: 40%;
+    z-index: 150;
+    opacity: 0.5;
+}
+
+.title8 {
+    position: absolute;
+    left: 7.5%;
+    top: 109em;
+    width: 40%;
+    z-index: 250;
+}
+
+.ball {
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #a2baca;
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80em;
+    top: 0em;
+    scale: 20%;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count:unset;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    z-index: 300;
+}
+
+.ball:hover,
+.ball:focus {
+    z-index: 600;
+    scale:350%;
+    position: absolute;
+    left:48%;
+    top:50%;
+    cursor: pointer;
+    animation: none;
+}
+
+.ball2 {
+    box-sizing: border-box;
+    padding: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #8096ab;
+    color: white;
+    font-size: 11px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 180em;
+    top: 0em;
+    scale: 20%;
+    animation-name: ball2;
+    animation-delay: 4s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    z-index: 300;
+}
+
+.ball2:hover,
+.ball2:focus {
+    z-index: 600;
+    scale:350%;
+    position: absolute;
+    left:48%;
+    top:50%;
+    cursor: pointer;
+    animation: none;
+
+}
+
+.ball3 {
+    box-sizing: border-box;
+    padding-top: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #4f82b1;
+    color: white;
+    font-size: 15px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80em;
+    top: 0em;
+    scale: 20%;
+    animation-name: ball3;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    z-index: 300;
+}
+
+.ball3:hover,
+.ball3:focus {
+    z-index: 600;
+    scale:350%;
+    position: absolute;
+    left:48%;
+    top:50%;
+    cursor: pointer;
+    animation: none;
+}
+
+.ball4 {
+    box-sizing: border-box;
+    padding: 1em;
+    padding-top: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #213344;
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80em;
+    top: 0em;
+    scale: 20%;
+    animation-name: ball4;
+    animation-duration: 5s;
+    animation-delay: 12s;
+    animation-iteration-count: infinite;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    z-index: 300;
+}
+
+.ball4:hover,
+.ball4:focus {
+    z-index: 600;
+    scale:350%;
+    position: absolute;
+    left:48%;
+    top:50%;
+    cursor: pointer;
+    animation: none;
+}
+
+.ball5 {
+    box-sizing: border-box;
+    font-weight: lighter;
+    padding-top: 3.5em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #61aef7;
+    color: white;
+    font-size: 13px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 0em;
+    scale: 20%;
+    animation-name: ball5;
+    animation-duration: 5s;
+    animation-delay: 16s;
+    animation-iteration-count: infinite;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    z-index: 300;
+}
+
+.ball5:hover,
+.ball5:focus {
+    z-index: 600;
+    scale:350%;
+    position: absolute;
+    left:48%;
+    top:50%;
+    cursor: pointer;
+    animation: none;
+}
+
+@keyframes ball {
+    0% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+
+    50% {
+        position: absolute;
+        left: 45em;
+        top: 20em;
+        scale: 100%;
+    }
+
+    100% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+}
+
+@keyframes ball2 {
+    0% {
+        position: absolute;
+        left: 110em;
+        top: 0em;
+        scale: 20%;
+    }
+
+    50% {
+        position: absolute;
+        left: 70em;
+        top: 30em;
+        scale: 100%;
+    }
+
+    100% {
+        position: absolute;
+        left: 110em;
+        top: 0em;
+        scale: 20%;
+    }
+}
+
+@keyframes ball3 {
+    0% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+
+    50% {
+        position: absolute;
+        left: 50em;
+        top: 25em;
+        scale: 100%;
+    }
+
+    100% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+}
+
+@keyframes ball4 {
+    0% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+
+    50% {
+        position: absolute;
+        left: 45em;
+        top: 20em;
+        scale: 100%;
+    }
+
+    100% {
+        position: absolute;
+        left: 80em;
+        top: 0em;
+        scale: 20%;
+    }
+}
+
+@keyframes ball5 {
+    0% {
+        position: absolute;
+        left: 90em;
+        top: 2em;
+        scale: 20%;
+    }
+
+    50% {
+        position: absolute;
+        left: 50em;
+        top: 25em;
+        scale: 100%;
+    }
+
+    100% {
+        position: absolute;
+        left: 90em;
+        top: 2em;
+        scale: 20%;
+    }
+}
+
+.NL {
+    position: absolute;
+    left:88%;
+    top:6%;
+    width: 5em;
+    height: 3em;
+    z-index: 600;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 500;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    z-index: 500;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-image: url(pictures/test.png);
+    background-size: cover;
+    margin: auto;
+    padding: 10em;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.close {
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    position: absolute;
+    left: 82em;
+    top: 66em;
+    width: 8em;
+
+    appearance: none;
+    background: none;
+    border: none;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes glow {
+    0% {
+        filter: none;
+    }
+
+    100% {
+        filter:
+            drop-shadow(0.01em 0.01em 0.4em black) drop-shadow(-0.01em -0.01em 0.4em black);
+    }
+}
+
+
+#myBtn img {
+    width: 100%;
+}
+
+.test {
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    z-index: 800;
+}
+
+
+
+
+.India {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.India-content {
+    z-index: 500;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-image: url(pictures/test2.png);
+    background-size: cover;
+    margin: auto;
+    padding: 10em;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.Indiaclose {
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.Indiaclose:hover,
+.Indiaclose2:focus {
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#Indiabutton {
+    position: absolute;
+    left: 82em;
+    top: 47em;
+    width: 8em;
+
+    appearance: none;
+    background: none;
+    border: none;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#Indiabutton img {
+    width: 100%;
+}
+
+
+.Ukra {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Ukra-content {
+    z-index: 500;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-image: url(pictures/test3.png);
+    background-size: cover;
+    margin: auto;
+    padding: 10em;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.Ukraclose {
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.Ukraclose:hover,
+.Ukraclose:focus {
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Ukrabutton {
+    position: absolute;
+    left: 82em;
+    top: 30em;
+    width: 8em;
+
+    appearance: none;
+    background: none;
+    border: none;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#Ukrabutton img {
+    width: 100%;
+}
+
+.kind {
+    position: absolute;
+    top: 180em;
+    left: 19%;
+    width: 23%;
+    transform: rotate(20deg);
+    animation-name: kind;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+.baggy {
+    position: absolute;
+    top: 173em;
+    left: 9%;
+    width: 35%;
+}
+
+.toggle {
+    --width: 1.5em;
+    --height: calc(var(--width) / 3);
+
+    position: relative;
+    top: 80%;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
+}
+
+.toggle input {
+    display: none;
+}
+
+.toggle .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color: #ccc;
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle .slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--height));
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked+.slider {
+    background-color: #2196F3;
+}
+
+.toggle input:checked+.slider::before {
+    transform: translateX(calc(var(--width) - var(--height)));
+}
+
+.toggle .labels {
+    position: absolute;
+    top: 35%;
+    left: -10%;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    right: 1%;
+    color: #4d4d4d;
+    opacity: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    left: 21%;
+    color: #ffffff;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle input:checked~.labels::after {
+    opacity: 0;
+}
+
+.toggle input:checked~.labels::before {
+    opacity: 1;
+}
+
+#fantasy {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 34%;
+    color: #000;
+    position: absolute;
+    left: 59%;
+    top: 63%;
+    z-index: 150;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.reality {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.reality-content {
+    z-index: 500;
+    position: absolute;
+    left: 1.9%;
+    top: 1%;
+    background-image: url(pictures/test4.png);
+    background-size: 99.9%;
+    overflow: hidden;
+    background-position: center;
+    margin: auto;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.realityclose {
+    border: solid;
+    border-color: transparent;
+    padding: 0.2em;
+    border-radius: 50%;
+    width: 1.5em;
+    position: absolute;
+    left: 51.5%;
+    top: 84.5%;
+    color: transparent;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.realityclose:hover,
+.realityclose:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#realitybutton {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    appearance: none;
+    left: 45%;
+    top: 237.2em;
+    width: 3.5em;
+    z-index: 900;
+    height: 3.5em;
+    border-radius: 50%;
+}
+
+.realitytoggle {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 10%;
+    z-index: 999;
+}
+
+.droom {
+    position: absolute;
+    left:40%;
+    height: 51em;
+    top:157em;
+    width:65em;
+}
+
+.z1 {
+    position: absolute;
+    left:38%;
+    top:170em;
+    width: 3%;
+    z-index: 100;
+    animation-name: z1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.z2 {
+    position: absolute;
+    left:33%;
+    top:175em;
+    width: 2%;
+    z-index: 300;
+    animation-name: z1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.z3 {
+    position: absolute;
+    left:30%;
+    top:179em;
+    width: 1%;
+    z-index: 200;
+    animation-name: z1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: z1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes z1 {
+    0% {
+        position: absolute;
+        left:30%;
+        top:179em;
+        opacity:1;
+    }
+
+    100% {
+        position: absolute;
+        left:38%;
+        top:170em;
+        opacity: 0;
+    }
+    
+}
+
+.reality-content p {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 34%;
+    color: #000;
+    position: absolute;
+    left: 52%;
+    top: 15%;
+    z-index: 150;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pfeil4 {
+    position: absolute;
+    left:50.6%;
+    top:78.5%;
+    width: 5%;
+    z-index: 999;
+    overflow: visible;
+}
+
+.happy {
+    position: absolute;
+    left:10%;
+    top:92%;
+    width: 28%;
+}
+
+.happyend {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 34%;
+    color: #000;
+    position: absolute;
+    left: 9%;
+    top: 84.5%;
+    z-index: 150;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.punt1 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 37%;
+    color: #000;
+    position: absolute;
+    left: 55%;
+    top: 83%;
+    z-index: 50;
+    text-align: left;
+    font-weight: lighter;
+    z-index: 50;
+}
+
+.punt2 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 37%;
+    color: #000;
+    position: absolute;
+    left: 55%;
+    top: 87%;
+    z-index: 50;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.punt3 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 37%;
+    color: #000;
+    position: absolute;
+    left: 55%;
+    top: 90.5%;
+    z-index: 50;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.punt4 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 37%;
+    color: #000;
+    position: absolute;
+    left: 55%;
+    top: 93%;
+    z-index: 50;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.punt5 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 37%;
+    color: #000;
+    position: absolute;
+    left: 55%;
+    top: 96%;
+    z-index: 50;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.eins {
+    position: absolute;
+    left:50.5%;
+    top:83.5%;
+    width: 2.4%;
+    z-index: 200;
+}
+
+.zwei {
+    position: absolute;
+    left:50.5%;
+    top:87.5%;
+    width: 2.4%;
+    z-index: 200;
+
+}
+
+.drei {
+    position: absolute;
+    left:50.5%;
+    top:91%;
+    width: 2%;
+    z-index: 200;
+
+}
+
+.vier {
+    position: absolute;
+    left:50.4%;
+    top:93.5%;
+    width: 2.2%;
+    z-index: 200;
+
+}
+
+.funf {
+    position: absolute;
+    left:50.6%;
+    top:96.5%;
+    width: 2.5%;
+    z-index: 200;
+
+}
+
+.box1 {
+    box-sizing: border-box;
+    background-color: white;
+    width:41em;
+    position: absolute;
+    left:49%;
+    top:83%;
+    height: 11em;
+    z-index: 110;
+}
+
+.box1:hover {
+   z-index: 0;
+}
+
+.box2 {
+    box-sizing: border-box;
+    background-color: white;
+    width:41em;
+    position: absolute;
+    left:49%;
+    top:87%;
+    height: 10em;
+    z-index: 110;
+}
+
+.box2:hover {
+   z-index: 0;
+}
+
+.box3 {
+    box-sizing: border-box;
+    background-color: white;
+    width:41em;
+    position: absolute;
+    left:49%;
+    top:90.8%;
+    height: 6em;
+    z-index: 110;
+}
+
+.box3:hover {
+   z-index: 0;
+}
+
+.box4 {
+    box-sizing: border-box;
+    background-color: white;
+    width:41em;
+    position: absolute;
+    left:49%;
+    top:93%;
+    height: 8em;
+    z-index: 110;
+}
+
+.box4:hover {
+   z-index: 0;
+}
+
+.box5 {
+    box-sizing: border-box;
+    background-color: white;
+    width:41em;
+    position: absolute;
+    left:49%;
+    top:96%;
+    height: 8em;
+    z-index: 110;
+}
+
+.box5:hover {
+   z-index: 0;
+}
+
+.conclusie {
+    position: absolute;
+    left: 8%;
+    top: 82%;
+    width: 31%;
+    z-index: 250;
+}
+    
+.conclusie2 {
+    position: absolute;
+    left: 7.7%;
+    top: 82.3%;
+    width: 31%;
+    z-index: 150;
+    opacity: 0.5;
+}
+
